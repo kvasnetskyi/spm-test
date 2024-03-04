@@ -9,5 +9,3 @@ jobs:
       - uses: actions/checkout@v3
       - name: Create xcframework
         uses: unsignedapps/swift-create-xcframework@v2.3
-        with:
-          platforms: ios
