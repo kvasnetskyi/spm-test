@@ -8,4 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Create xcframework
-        uses: unsignedapps/swift-create-xcframework@v2.3
+        uses: unsignedapps/swift-create-xcframework@v2
+        with:
+          platforms: ios
