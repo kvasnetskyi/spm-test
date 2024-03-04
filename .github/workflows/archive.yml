@@ -7,6 +7,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
+      - run: swift --version
       - name: Create xcframework
         uses: unsignedapps/swift-create-xcframework@v2
         with:
