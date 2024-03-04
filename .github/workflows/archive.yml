@@ -6,8 +6,8 @@ jobs:
     name: Archiving frameworks
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2.3
+      - uses: actions/checkout@v3
       - name: Create xcframework
-        uses: unsignedapps/swift-create-xcframework@v2
+        uses: unsignedapps/swift-create-xcframework@v2.3
         with:
           platforms: ios
