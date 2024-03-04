@@ -8,4 +8,4 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create xcframework
-        uses: unsignedapps/swift-create-xcframework@v2
+        uses: bsneed/swift-create-xcframework@bsneed/xcode15_fix

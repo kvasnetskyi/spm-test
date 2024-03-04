@@ -31,6 +31,5 @@ let package = Package(
             name: "MySecondLibraryTests",
             dependencies: ["MySecondLibrary"]
         ),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
