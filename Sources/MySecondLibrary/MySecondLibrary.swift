@@ -7,7 +7,6 @@
 
 import Foundation
 import MyFirstLibrary
-import UIKit
 
 public final class MySecondLibrary {
     public let first = MyFirstLibrary()
