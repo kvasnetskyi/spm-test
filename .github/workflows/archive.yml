@@ -10,4 +10,4 @@ jobs:
       - name: Create xcframework
         uses: unsignedapps/swift-create-xcframework@v2
         with:
-          xcconfig: Config.xcconfig
+          xcconfig: "./Config.xcconfig"
